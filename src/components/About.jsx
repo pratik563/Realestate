@@ -1,11 +1,11 @@
 import React from "react";
 import aboutimage from "../images/portfolio.jpg";
-import logo from "../images/moryalogo.png";
+import logo from "../images/navlogo.png";
 
 const About = () => {
   return (
     <div
-      className="flex flex-col md:flex-row text-2xl text-black bg-cover bg-center w-full h-auto py-16 bg-gray-100"
+      className="flex flex-col md:flex-row text-2xl text-black bg-cover bg-center w-full h-auto py-16 bg-gray-100 md:h-[calc(100vh)]"
       style={{ backgroundImage: `url(${aboutimage})` }}
     >
       <div className="flex flex-col items-center md:flex-row w-full">
@@ -14,7 +14,7 @@ const About = () => {
           <img
             src={logo}
             alt="Right side content"
-            className="h-40 w-40 md:h-full md:w-auto rounded-lg object-cover"
+            className="h-32 md:h-96 md:w-auto rounded-lg object-cover"
           />
         </div>
 

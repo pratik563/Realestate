@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./card.jsx";
+import Card from "./Card.jsx";
 import portimage from "../images/white.jpg";
 
 // Import images for cards

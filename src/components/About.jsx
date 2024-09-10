@@ -34,7 +34,7 @@ const About = () => {
             living.
           </p>
           <button
-            className="border border-black p-3 text-lg md:text-2xl font-semibold rounded-md text-white bg-[#6b9330] hover:bg-[#3d5e2f]"
+            className="border border-black p-3 text-lg md:text-2xl font-semibold rounded-md text-white bg-[#6b9330] hover:bg-[#3d5e2f] hover:scale-105 transition-transform duration-300 shadow-md hover:shadow-lg"
             type="button"
           >
             Explore More

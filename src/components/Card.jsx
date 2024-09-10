@@ -2,9 +2,13 @@ import React from "react";
 
 const Card = ({ imageSrc, title, description }) => {
   return (
-    <div className="max-w-sm rounded-md overflow-hidden shadow-lg bg-[#011a42] text-white">
+    <div className="max-w-sm rounded-md overflow-hidden shadow-lg bg-[#011a42] text-white transform transition duration-300 hover:scale-105 hover:shadow-2xl">
       {/* Ensure all images are the same size */}
-      <img className="w-full h-64 object-cover" src={imageSrc} alt={title} />
+      <img
+        className="w-full h-64 object-cover transition duration-300 hover:brightness-110"
+        src={imageSrc}
+        alt={title}
+      />
       <div className="px-6 text-center py-4">
         <div className="font-bold text-2xl mb-2">{title}</div>
         <p className="text-gray-300 text-base">{description}</p>

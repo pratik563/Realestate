@@ -3,53 +3,49 @@ import logo from "../images/navlogo.png";
 
 const Navbar = () => {
   return (
-    <header className="sticky top-0 z-50 flex justify-between items-center py-3 px-6 md:px-16 bg-white shadow-md">
-      <img className="w-24 md:w-24" src={logo} alt="Logo" />
-      <ul className="hidden md:flex space-x-4">
-        <li>
-          <a
-            href="#"
-            className="text-xl md:text-2xl p-2 hover:bg-[#dd751e] hover:text-white font-semibold rounded-md transition-all"
-          >
-            Home
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
-            className="text-xl md:text-2xl p-2 hover:bg-[#dd751e] hover:text-white font-semibold rounded-md transition-all"
-          >
-            About Us
-          </a>
-        </li>
-        <li className="relative group">
-          <a
-            href="#"
-            className="text-xl md:text-2xl p-2 hover:bg-[#dd751e] hover:text-white font-semibold rounded-md transition-all"
-          >
-            Projects
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
-            className="text-xl md:text-2xl p-2 hover:bg-[#dd751e] hover:text-white font-semibold rounded-md transition-all"
-          >
-            Contact Us
-          </a>
-        </li>
-        <li>
-          <a
-            href="tel: +91 9595959595"
-            className="hidden md:inline-block text-xl md:text-3xl font-semibold text-black rounded-md p-1 hover:bg-[#dd751e] hover:text-white transition-all"
-          >
-            <i class="bx bxs-phone bx-tada"></i>
-          </a>
-          <i className="bx bx-menu md:hidden text-4xl cursor-pointer"></i>
-        </li>
-      </ul>
+    <header className="sticky top-0 z-50 flex justify-between items-center py-3 px-6 md:px-16 bg-gray-200 shadow-lg transition-shadow duration-300">
+      {/* Logo */}
+      <img className="w-20 md:w-24 cursor-pointer" src={logo} alt="Logo" />
 
-      <i className="bx bx-menu md:hidden text-4xl cursor-pointer"></i>
+      {/* Navigation Links */}
+      <nav className="hidden md:flex space-x-6 items-center">
+        <a
+          href="#"
+          className="text-lg lg:text-xl font-medium hover:bg-[#dd751e] hover:text-white py-2 px-4 rounded-lg transition-all duration-300"
+        >
+          Home
+        </a>
+        <a
+          href="#"
+          className="text-lg lg:text-xl font-medium hover:bg-[#dd751e] hover:text-white py-2 px-4 rounded-lg transition-all duration-300"
+        >
+          About Us
+        </a>
+        <a
+          href="#"
+          className="text-lg lg:text-xl font-medium hover:bg-[#dd751e] hover:text-white py-2 px-4 rounded-lg transition-all duration-300"
+        >
+          Projects
+        </a>
+        <a
+          href="#"
+          className="text-lg lg:text-xl font-medium hover:bg-[#dd751e] hover:text-white py-2 px-4 rounded-lg transition-all duration-300"
+        >
+          Contact Us
+        </a>
+      </nav>
+
+      {/* Phone Icon and Number */}
+      <a
+        href="tel:+919595959595"
+        className="hidden md:flex items-center space-x-2 text-lg lg:text-xl font-medium hover:bg-[#dd751e] hover:text-white py-2 px-4 rounded-lg transition-all duration-300"
+      >
+        <i className="bx bxs-phone text-2xl"></i>
+        <span>9595959595</span>
+      </a>
+
+      {/* Hamburger Menu for Mobile */}
+      <i className="md:hidden bx bx-menu text-4xl cursor-pointer hover:text-[#dd751e] transition duration-300"></i>
     </header>
   );
 };

@@ -102,7 +102,7 @@ const Portfolio = () => {
         <h2 className="text-4xl text-center font-semibold text-green-800 mb-12">
           Completed Projects
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-12 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-12 gap-6">
           {completedprojects.map((card, index) => (
             <Card
               key={index}

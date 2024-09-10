@@ -5,7 +5,7 @@ import logo from "../images/navlogo.png";
 const About = () => {
   return (
     <div
-      className="flex flex-col md:flex-row text-2xl text-black bg-cover bg-center w-full h-auto py-16 bg-gray-100 md:h-[calc(100vh)]"
+      className="flex flex-col md:flex-row text-2xl text-black lg:bg-cover lg:bg-center w-full h-auto py-16 bg-black/50 md:h-[calc(100vh)]"
       style={{ backgroundImage: `url(${aboutimage})` }}
     >
       <div className="flex flex-col items-center md:flex-row w-full">

@@ -153,7 +153,7 @@ const ContactForm = () => {
             <h2 className="text-2xl font-bold mb-4 text-gray-800">
               Have Questions?
             </h2>
-            <p className="text-gray-800 font-semibold text-lg">
+            <p className="font-semibold text-lg">
               Get in touch for consultations, property viewings, or any queries.
             </p>
           </div>

@@ -1,18 +1,19 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
-import aboutimage from "../images/portfolio.jpg";
-import heroImage from "../images/buildings.jpg";
+import aboutimage from "../images/onecom.jpg";
+import heroImage from "../images/twotwo.jpg";
 
 export function Home2() {
   return (
-    <Carousel className="">
+    <Carousel className="bg-black">
+      {/* First Image Section */}
       <div className="relative h-full w-full">
         <img
           src={aboutimage}
           alt="image 1"
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/50">
-          <div className="w-3/4 text-center md:w-2/4">
+        <div className="absolute inset-0 grid h-full w-full items-center bg-black/50">
+          <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
             <Typography
               variant="h1"
               color="white"
@@ -31,7 +32,7 @@ export function Home2() {
               real estate services & building exclusive homes that meet the
               highest standards of quality & craftsmanship.
             </Typography>
-            <div className="flex justify-center gap-2">
+            <div className="flex gap-2">
               <Button size="lg" color="white">
                 Projects
               </Button>
@@ -42,6 +43,8 @@ export function Home2() {
           </div>
         </div>
       </div>
+
+      {/* Second Image Section */}
       <div className="relative h-full w-full">
         <img
           src={heroImage}
@@ -58,6 +61,13 @@ export function Home2() {
               Morya Enclave
             </Typography>
             <Typography
+              variant="h2"
+              color="white"
+              className="mb-4 text-xl md:text-2xl font-medium lg:text-3xl"
+            >
+              Our Flagship Project
+            </Typography>
+            <Typography
               variant="lead"
               color="white"
               className="mb-12 opacity-80"
@@ -65,12 +75,19 @@ export function Home2() {
               Moraya Enclave offers premium living in Pune-Nashik highway with
               modern amenities and strategic location. Enjoy close proximity to
               facilities like gardens, playgrounds, and educational centers.
-              Experience posh yet understated architecture.
+              Experience posh yet understated architecture in this urban
+              landscape.
             </Typography>
             <div className="flex gap-2">
-              <Button size="lg" color="white">
-                Explore
-              </Button>
+              <a
+                href="https://enclave.morayaassociates.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="lg" color="white">
+                  Explore
+                </Button>
+              </a>
             </div>
           </div>
         </div>

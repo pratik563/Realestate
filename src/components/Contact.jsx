@@ -115,13 +115,13 @@ const ContactForm = () => {
             </h3>
             <a
               href="tel:+919595959595"
-              className="block font-semibold text-xl mb-1 py-2 px-4 rounded-md hover:bg-green-600 hover:text-white"
+              className="block font-semibold text-xl mb-1 py-2 px-4 rounded-md hover:bg-[#dd751e] hover:text-white"
             >
               Phone: +91 9595959595
             </a>
             <a
               href="mailto:info@example.com"
-              className="block font-semibold text-xl mb-1 py-2 px-4 rounded-md hover:bg-green-600 hover:text-white"
+              className="block font-semibold text-xl mb-1 py-2 px-4 rounded-md hover:bg-[#dd751e] hover:text-white"
             >
               Email: info@example.com
             </a>
@@ -131,19 +131,19 @@ const ContactForm = () => {
             <h3 className="text-2xl font-bold mb-4 text-gray-800">Follow Us</h3>
             <a
               href="#"
-              className="text-blue-600 text-xl font-semibold py-2 px-4 rounded-md hover:bg-green-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-200 ease-in-out"
+              className="text-blue-600 text-xl font-semibold py-2 px-4 rounded-md hover:bg-[#dd751e] hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-200 ease-in-out"
             >
               X
             </a>
             <a
               href="#"
-              className=" text-blue-600 text-xl font-semibold py-2 px-4 rounded-md hover:bg-green-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-200 ease-in-out"
+              className=" text-blue-600 text-xl font-semibold py-2 px-4 rounded-md hover:bg-[#dd751e] hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-200 ease-in-out"
             >
               Facebook
             </a>
             <a
               href="#"
-              className="text-blue-600 text-xl font-semibold py-2 px-4 rounded-md hover:bg-green-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-200 ease-in-out"
+              className="text-blue-600 text-xl font-semibold py-2 px-4 rounded-md hover:bg-[#dd751e] hover:text-white focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-200 ease-in-out"
             >
               Instagram
             </a>

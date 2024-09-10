@@ -20,7 +20,7 @@ const About = () => {
 
         {/* Text Section */}
         <div className="flex flex-col justify-center items-center md:items-start pl-6 w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-semibold text-green-600 mb-8">
+          <h1 className="text-4xl md:text-5xl font-semibold text-[#6b9330] mb-8">
             About Us
           </h1>
           <h1 className="text-3xl md:text-5xl font-medium mb-8">
@@ -34,7 +34,7 @@ const About = () => {
             living.
           </p>
           <button
-            className="border border-black p-3 text-lg md:text-2xl font-semibold rounded-md text-white bg-green-600 hover:bg-green-700"
+            className="border border-black p-3 text-lg md:text-2xl font-semibold rounded-md text-white bg-[#6b9330] hover:bg-[#3d5e2f]"
             type="button"
           >
             Explore More

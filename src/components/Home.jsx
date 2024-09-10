@@ -24,7 +24,7 @@ const Home = () => {
             </p>
             <a
               href="#"
-              className="border border-black p-2 pl-4 pr-4 text-lg lg:text-xl font-semibold rounded-md text-white bg-green-600 hover:bg-green-700"
+              className="border border-black p-2 pl-4 pr-4 text-lg lg:text-xl font-semibold rounded-md text-white bg-[#6b9330] hover:bg-[#3d5e2f]"
             >
               Contact Us
             </a>

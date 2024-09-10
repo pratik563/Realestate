@@ -19,7 +19,7 @@ const About = () => {
         </div>
 
         {/* Text Section */}
-        <div className="flex flex-col justify-center items-center md:items-start pl-6 w-full md:w-1/2 text-center md:text-left">
+        <div className="flex flex-col justify-center items-center md:items-start px-6 w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-semibold text-[#6b9330] mb-8">
             About Us
           </h1>

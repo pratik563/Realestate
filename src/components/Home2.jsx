@@ -4,35 +4,35 @@ import heroImage from "../images/twotwo.jpg";
 
 export function Home2() {
   return (
-    <Carousel className="bg-black">
+    <Carousel id="home" className="bg-black">
       {/* First Image Section */}
-      <div className="relative min-h-screen w-full">
+      <div className="relative h-full w-full">
         <img
           src={aboutimage}
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 grid h-full w-full items-center bg-black/50">
-          <div className="w-11/12 sm:w-3/4 text-center sm:text-left pl-4 sm:pl-12 md:w-2/4 md:pl-20 lg:pl-32">
+          <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
               Where Quality Meets Excellence
             </Typography>
             <Typography
               variant="lead"
               color="white"
-              className="mb-12 text-sm sm:text-base md:text-lg opacity-80"
+              className="mb-12 opacity-80"
             >
               Moraya Group of Companies is a renowned name in the real estate
               development industry in Pimpri Chinchwad Municipal Corporation
-              (PCMC). Established in 2005, we have been providing exceptional
+              (PCMC). Established in 2005, We have been providing exceptional
               real estate services & building exclusive homes that meet the
               highest standards of quality & craftsmanship.
             </Typography>
-            <div className="flex justify-center sm:justify-start gap-2">
+            <div className="flex gap-2">
               <Button size="lg" color="white">
                 Projects
               </Button>
@@ -45,32 +45,32 @@ export function Home2() {
       </div>
 
       {/* Second Image Section */}
-      <div className="relative min-h-screen w-full">
+      <div className="relative h-full w-full">
         <img
           src={heroImage}
           alt="image 2"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 grid h-full w-full items-center bg-black/50">
-          <div className="w-11/12 sm:w-3/4 text-center sm:text-left pl-4 sm:pl-12 md:w-2/4 md:pl-20 lg:pl-32">
+          <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
               Morya Enclave
             </Typography>
             <Typography
               variant="h2"
               color="white"
-              className="mb-4 text-lg sm:text-xl md:text-2xl font-medium lg:text-3xl"
+              className="mb-4 text-xl md:text-2xl font-medium lg:text-3xl"
             >
               Our Flagship Project
             </Typography>
             <Typography
               variant="lead"
               color="white"
-              className="mb-12 text-sm sm:text-base md:text-lg opacity-80"
+              className="mb-12 opacity-80"
             >
               Moraya Enclave offers premium living in Pune-Nashik highway with
               modern amenities and strategic location. Enjoy close proximity to
@@ -78,7 +78,7 @@ export function Home2() {
               Experience posh yet understated architecture in this urban
               landscape.
             </Typography>
-            <div className="flex justify-center sm:justify-start gap-2">
+            <div className="flex gap-2">
               <a
                 href="https://enclave.morayaassociates.com/"
                 target="_blank"

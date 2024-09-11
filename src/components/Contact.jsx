@@ -3,7 +3,10 @@ import React from "react";
 const ContactForm = () => {
   return (
     <>
-      <div className="flex flex-wrap mx-auto p-6 bg-gradient-to-t bg-[#0a0a29] shadow-md rounded-md">
+      <div
+        id="contact"
+        className="flex flex-wrap mx-auto p-6 bg-gradient-to-t bg-[#0a0a29] shadow-md rounded-md"
+      >
         <div className="w-full items-center md:w-1/2 p-6 mx-auto shadow-lg rounded-lg">
           <h2 className="text-3xl font-bold mb-8 text-white text-center">
             Contact Us
@@ -20,7 +23,7 @@ const ContactForm = () => {
                 type="text"
                 id="name"
                 required
-                className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
+                className="w-full md:w-3/4 px-4 py-2 border placeholder-gray-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
                 placeholder="Enter Name"
               />
             </div>
@@ -35,7 +38,7 @@ const ContactForm = () => {
                 type="email"
                 required
                 id="email"
-                className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
+                className="w-full md:w-3/4 px-4 py-2 border placeholder-gray-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
                 placeholder="Enter Email"
               />
             </div>
@@ -52,7 +55,7 @@ const ContactForm = () => {
                 inputmode="numeric"
                 required
                 id="phone"
-                className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
+                className="w-full md:w-3/4 px-4 py-2 border placeholder-gray-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
                 placeholder="Enter Phone Number"
               />
             </div>
@@ -66,7 +69,7 @@ const ContactForm = () => {
               <textarea
                 id="message"
                 required
-                className="w-full md:w-3/4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
+                className="w-full md:w-3/4 px-4 py-2 border placeholder-gray-900 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
                 rows="5"
                 columns="5"
                 placeholder="Enter Message"

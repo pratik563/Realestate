@@ -14,7 +14,7 @@ import image8 from "../images/Kunal-Heritage.jpg";
 import image9 from "../images/Vineet-Heights.jpg";
 import image10 from "../images/Samarth-Srushti.jpg";
 
-const Portfolio = () => {
+const Projects = () => {
   const ongoingProjects = [
     {
       imageSrc: image1,
@@ -73,6 +73,7 @@ const Portfolio = () => {
 
   return (
     <div
+      id="projects"
       className="flex flex-col justify-center items-center bg-cover bg-center p-8 w-full h-auto py-16 bg-white"
       style={{ backgroundImage: `url(${portimage})` }}
     >
@@ -117,4 +118,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

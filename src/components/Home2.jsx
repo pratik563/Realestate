@@ -4,7 +4,7 @@ import heroImage from "../images/twotwo.jpg";
 
 export function Home2() {
   return (
-    <Carousel id="home" className="bg-black">
+    <Carousel id="home" className="bg-black mt-3">
       {/* First Image Section */}
       <div className="relative h-full w-full">
         <img

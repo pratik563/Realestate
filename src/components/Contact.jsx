@@ -5,10 +5,10 @@ const ContactForm = () => {
     <>
       <div
         id="contact"
-        className="flex flex-wrap mx-auto p-6 bg-gradient-to-t bg-[#0a0a29] shadow-md rounded-md"
+        className="flex flex-wrap mx-auto md:mt-3 p-6 bg-gradient-to-t bg-[#0a0a29] shadow-md rounded-md"
       >
         <div className="w-full items-center md:w-1/2 p-6 mx-auto shadow-lg rounded-lg">
-          <h2 className="text-3xl font-bold mb-8 text-white text-center">
+          <h2 className="text-3xl font-bold mb-8 mt-5 text-white text-center">
             Contact Us
           </h2>
           <form className="flex flex-col text-center items-center">

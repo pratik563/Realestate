@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 flex justify-between items-center py-3 px-6 md:px-16 bg-gray-200 shadow-lg transition-shadow duration-300">
       {/* Logo */}
-      <img className="w-20 md:w-24 cursor-pointer" src={logo} alt="Logo" />
+      <img className="w-12 md:w-20 cursor-pointer" src={logo} alt="Logo" />
 
       {/* Navigation Links for Desktop */}
       <nav className="hidden md:flex space-x-6 items-center">
@@ -62,8 +62,14 @@ const Navbar = () => {
       <div
         className={`${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
-        } fixed top-0 right-0 h-full w-3/4 bg-gray-200 shadow-lg transition-transform duration-300 ease-in-out md:hidden flex flex-col items-center space-y-6 pt-24`}
+        } fixed top-0 right-0 h-full w-3/4 bg-gray-200 shadow-lg transition-transform duration-300 ease-in-out md:hidden flex flex-col items-center space-y-6 pt-6`}
       >
+        {/* Hamburger Icon inside the mobile menu to close it */}
+        <i
+          className="bx bx-menu-alt-right text-4xl cursor-pointer absolute top-4 right-4 hover:text-[#dd751e] transition duration-300"
+          onClick={toggleMenu}
+        ></i>
+
         <a
           href="#home"
           onClick={toggleMenu} // Close menu on click

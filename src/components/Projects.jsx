@@ -77,7 +77,9 @@ const Projects = () => {
       className="flex flex-col justify-center items-center bg-cover bg-center p-8 w-full h-auto py-16 bg-white"
       style={{ backgroundImage: `url(${portimage})` }}
     >
-      <h1 className="text-5xl font-bold text-blue-900 mb-8">Our Projects</h1>
+      <h1 className="text-5xl mt-8 font-bold text-blue-900 mb-8">
+        Our Projects
+      </h1>
 
       {/* Ongoing Projects Section */}
       <h2 className="text-4xl font-semibold text-green-800 mb-12">
